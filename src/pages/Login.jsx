@@ -4,7 +4,7 @@ const Login = () => {
       try {
         // const response = await axios.get(`${import.meta.env.VITE_SERVER_BASE_URL}/api/auth/${method}`)
         
-        window.location.href = `${import.meta.env.VITE_SERVER_BASE_URL}/api/auth/${method}`;
+        window.location.href = `${import.meta.env.VITE_SERVER_BASE_URL}/auth/${method}`;
       } catch (error) {
         console.error(error);
       }
